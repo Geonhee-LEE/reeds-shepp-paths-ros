@@ -43,6 +43,8 @@
 #include <base_local_planner/costmap_model.h>
 #include <geometry_msgs/Pose.h>
 #include <geometry_msgs/PoseStamped.h>
+#include <tf/tf.h>
+#include <tf/transform_listener.h>
 
 #include <ompl/base/ScopedState.h>
 #include <ompl/geometric/SimpleSetup.h>

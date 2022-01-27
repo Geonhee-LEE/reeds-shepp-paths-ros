@@ -40,5 +40,5 @@ catkin_package(
 add_library(${PROJECT_NAME} src/${PROJECT_NAME}.cpp)
 target_link_libraries(${PROJECT_NAME} ${catkin_LIBRARIES} ${OMPL_LIBRARIES})
 
-add_executable(demo src/demo.cpp)
-target_link_libraries(demo ${PROJECT_NAME} ${catkin_LIBARRIES})
+add_executable(${PROJECT_NAME}_demo src/demo.cpp)
+target_link_libraries(${PROJECT_NAME}_demo ${PROJECT_NAME} ${catkin_LIBARRIES})
